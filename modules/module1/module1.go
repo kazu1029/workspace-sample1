@@ -2,7 +2,7 @@ package module1
 
 import (
 	"fmt"
-	"hoge/fuga"
+	"github.com/kazu1029/workspace-sample1/module1/hoge/fuga"
 )
 
 type module1Service struct {
