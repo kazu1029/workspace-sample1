@@ -1,7 +1,8 @@
-package moduleA2AAAAAAAAAi
+package module2
 
 import (
 	"fmt"
+
 	"github.com/kazu1029/workspace-sample1/hoge/fuga"
 )
 

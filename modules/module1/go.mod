@@ -1,3 +1,5 @@
-module github.com/kazu1029/workspace-sample1/module1
+module github.com/kazu1029/module1
 
 go 1.18
+
+require github.com/kazu1029/workspace-sample1 v0.0.0-20220411070503-bc7f5c29bdfa
