@@ -16,5 +16,5 @@ func NewModule2Service() Module2Service {
 }
 
 func (s *module2Service) Print(str string) {
-	fmt.Println("module1: ", print(str))
+	fmt.Println("module2 updated: ", print(str))
 }
