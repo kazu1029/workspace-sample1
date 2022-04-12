@@ -3,6 +3,7 @@ package module1
 import (
 	"fmt"
 	"github.com/kazu1029/workspace-sample1/modules/module1/hoge/fuga"
+	"github.com/kazu1029/workspace-sample1/internal/logging"
 )
 
 type module1Service struct {
@@ -18,4 +19,5 @@ func NewModule1Service() Module1Service {
 
 func (s *module1Service) Print(str string) {
 	fmt.Println("module1: ", fuga.Print(str))
+	logging.Info(fuga.Print(str))
 }
