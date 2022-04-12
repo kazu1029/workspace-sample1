@@ -5,9 +5,9 @@ import (
 )
 
 func Debug(str string) {
-	log.Debug("[DEBUG] ", str)
+	log.Println("[DEBUG] ", str)
 }
 
 func Info(str string) {
-	log.Info("[INFO] ", str)
+	log.Println("[INFO] ", str)
 }
